@@ -1,5 +1,5 @@
 # RegistrationPage
-#Project Discription
+# Project Discription
   This is an ASP.NET MVC CRUD Application using EntityFramework
   
 ## Features

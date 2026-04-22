@@ -1,0 +1,10 @@
+﻿@model RegistrationPage.Models.Registration
+<form method="post" action="/Home/Edit">
+    <input type="hidden" name="Id" value="@Model.Id" /><br/>
+    <lable>Name</lable>
+    <input type="text" name="Name" value="@Model.Name" /><br/>
+    <lable>Email</lable>
+    <input type="text" name="Email" value="@Model.Email" /><br/>
+    <button type="submit">Update</button>
+ </form>
+
